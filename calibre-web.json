@@ -4,16 +4,16 @@
     "artifact": "https://github.com/entuerto/iocage-plugin-calibre-web.git",
     "pkgs": [
         "git",
-        "python36",
-        "py36-sqlite3",
-        "py36-pip"
+        "python3",
+        "py37-sqlite3",
+        "py37-pip"
     ],
-    "packagesite": "http://pkg.cdn.trueos.org/iocage",
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
         "iocage-plugins": [
             {
                 "function": "sha256",
-                "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+                "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
             }
         ]
     },
