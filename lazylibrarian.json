@@ -1,0 +1,24 @@
+{
+    "name": "lazylibrarian",
+    "release": "11.3-RELEASE",
+    "artifact": "https://github.com/entuerto/iocage-plugin-lazylibrarian.git",
+    "pkgs": [
+        "git",
+        "python36",
+        "py36-sqlite3",
+        "py36-urllib3",
+        "unrar",
+        "pyOpenSSL",
+        "wget"
+    ],
+    "packagesite": "http://pkg.cdn.trueos.org/iocage",
+    "fingerprints": {
+        "iocage-plugins": [
+            {
+                "function": "sha256",
+                "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+            }
+        ]
+    },
+    "official": false
+}
